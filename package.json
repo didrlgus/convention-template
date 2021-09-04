@@ -1,7 +1,7 @@
 {
   "name": "static",
   "version": "0.0.0-development",
-  "repository": "https://github.com/kihyun-yang/convention-template.git",
+  "repository": "https://github.com/didrlgus/convention-template.git",
   "author": "Kihyun <rlgusdid@naver.com>",
   "main": "index.js",
   "scripts": {
