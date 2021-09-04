@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ConventionTemplateApplication {
 
     public static void main(String[] args) {
+        System.out.println("새로운 기능 추가");
         SpringApplication.run(ConventionTemplateApplication.class, args);
     }
 
