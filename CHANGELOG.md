@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.1.0](https://github.com/didrlgus/convention-template/compare/v1.0.0...v1.1.0) (2021-09-04)
+
+
+### Features
+
+* minor version up test ([f92e1bb](https://github.com/didrlgus/convention-template/commit/f92e1bb99cc0906033583a2584f4a009b0b9f780))
+
 # 1.0.0 (2021-09-04)
 
 
