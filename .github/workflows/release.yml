@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          token: ${{ secrets.GH_TOKEN }}
       - name: Setup node
         uses: actions/setup-node@v1
         with:
@@ -21,13 +24,8 @@ jobs:
       - name: Build package
         run: npm run build --if-present
       - name: Semantic release
-        with:
-          branch: main
-          extra_plugins: |
-            @semantic-release/changelog
-            @semantic-release/git
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           HUSKY: 0
         run: chmod +x script/prepare-release.sh && npx semantic-release
