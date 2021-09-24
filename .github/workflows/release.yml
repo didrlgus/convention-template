@@ -12,9 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          token: ${{ secrets.GH_TOKEN }}
       - name: Setup node
         uses: actions/setup-node@v1
         with:
@@ -27,5 +24,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          MYSQL_DATABASE_NAME: ${{ secrets.MYSQL_DATABASE_NAME }}
+          LOCAL_MYSQL_USERNAME: ${{ secrets.LOCAL_MYSQL_USERNAME }}
+          LOCAL_MYSQL_PASSWORD: ${{ secrets.LOCAL_MYSQL_PASSWORD }}
           HUSKY: 0
         run: chmod +x script/prepare-release.sh && npx semantic-release
