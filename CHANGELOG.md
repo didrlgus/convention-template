@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.4.0](https://github.com/didrlgus/convention-template/compare/v1.3.0...v1.4.0) (2021-09-24)
+
+
+### Features
+
+* 환경변수 테스트 ([8fa411e](https://github.com/didrlgus/convention-template/commit/8fa411e7e8945484e8dc3a758301acdf269a0892))
+
 # [1.3.0](https://github.com/didrlgus/convention-template/compare/v1.2.0...v1.3.0) (2021-09-23)
 
 
