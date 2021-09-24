@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.5.0](https://github.com/didrlgus/convention-template/compare/v1.4.0...v1.5.0) (2021-09-24)
+
+
+### Features
+
+* github action env 테스트 ([7dff55f](https://github.com/didrlgus/convention-template/commit/7dff55f9352136a7300ac202683a8eb466792a1c))
+
 # [1.4.0](https://github.com/didrlgus/convention-template/compare/v1.3.0...v1.4.0) (2021-09-24)
 
 
