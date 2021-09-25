@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.6.0](https://github.com/didrlgus/convention-template/compare/v1.5.0...v1.6.0) (2021-09-25)
+
+
+### Features
+
+* release script 변경 ([6e2b7d4](https://github.com/didrlgus/convention-template/commit/6e2b7d4023ac3ca18befc6f9f02ce78a80cff6e1))
+
 # [1.5.0](https://github.com/didrlgus/convention-template/compare/v1.4.0...v1.5.0) (2021-09-24)
 
 
