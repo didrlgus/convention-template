@@ -10,6 +10,7 @@ public class JavaFoo {
         System.out.println("새로운 기능 추가4");
         System.out.println("새로운 기능 추가5");
         System.out.println("새로운 기능 추가6");
+        System.out.println("새로운 기능 추가7");
         return "hello world";
     }
 
